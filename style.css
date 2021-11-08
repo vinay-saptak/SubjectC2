@@ -1,0 +1,327 @@
+/*
+Theme Name: PaapsofApp
+Author: Vinay Saptak
+Author URI:
+Description: The Official theme
+Version: 1.0
+*/
+
+html,body{
+    margin:0!important;
+    padding:0!important;
+    background-color: black;
+}
+/* header{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    right: 154px;
+    top: 24px;
+    color:#FFFFFF;
+}
+header>div{
+    padding: 11px 16px 12px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+} */
+footer{
+    background:#161616;
+    color:#9B9B9B;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    padding-top: 80px;
+}
+#span_ques{
+    color:#B51D2D;
+}
+#foot_ques>div:first-child{
+    font-size:52px;
+    font-weight: 600;
+}
+#span_foot_sub{
+    font-size:14px;
+    font-family: 'Inter', sans-serif;
+    color:#FFFFFF;
+    margin-top: 15px;
+}
+#foot_copysec{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 610px;
+    margin: 65px auto;
+}
+#foot_copysec>span{
+    background:#9B9B9B;
+    color:#FFFFFF;
+    font-size:16px;
+    padding:11px 16px 12px 16px;
+    border-radius: 45px;
+    font-family: 'Inter', sans-serif;   
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor:pointer;
+}
+#footer_last{
+    min-height: 100%;
+    background-image: url('http://localhost/wordpress/wp-content/uploads/2021/11/Group-25367.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 70vh;    
+    padding: 285px 0 0 154px;
+}
+#foot_last-main-P1{
+    font-size: 52px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+#foot_last-main-P2{
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin: 20px 0 36px 0;
+}
+#foot_last-main-P3{
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.cls_footLastSocial{
+    display: flex;
+    width: 110px;
+    height: 21px;
+    justify-content: space-between;
+    padding: 11px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    border: 1px Solid #FFFFFF;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.cls_footLastSocial:first-child{
+    width: 85px;
+}
+#footer_first{
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#home_sec-main{
+    background-image: url('http://localhost/wordpress/wp-content/uploads/2021/11/Group-25362-1.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;  
+    padding: 0 154px;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+#home_sec-main>div{
+    position: relative;
+    top:360px;
+    width:462px;
+}
+#home_sec-mainP1{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:#9B9B9B;
+    margin-bottom: 20px;
+    line-height: 36px;
+}
+#home_sec-mainP1>span{
+    color:#FFFFFF;
+}
+#home_sec-carousal{
+    padding-left: 154px;
+}
+#carousalHeading{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+#carousalHeading>span{
+    color:#B51D2D;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(170, 168, 168);
+    border:none;
+    margin: 0px;
+}
+.carousel-indicators {
+    left: 15%;
+}
+.carousel-indicators .active {
+    width: 60px;
+    height: 3px;
+}
+.carousel-inner {
+    position: relative;
+    width: 60%;
+}
+.carousel-caption {
+    right: auto;
+    left: 36px;;
+    color: #fff;
+    text-align: left;
+}
+@media screen and (max-width: 425px) {
+    footer{
+        padding-top: 30px;
+    }
+    #footer_first{
+        text-align: left!important;
+        padding: 0 16px;
+    }
+    #foot_ques>div:first-child{
+        font-size: 28px;
+        text-align: left!important;
+    }
+    #span_foot_sub{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    #foot_copysec>span {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    #foot_copysec {
+        justify-content:start;
+        width: auto;
+        margin: 30px auto;
+    }
+    #foot_copysec>span::nth-child(odd){
+        display:none;
+    }
+    #footer_last{
+        background-position: center center;
+        padding: 100px 16px 0 17px;
+        height: 40vh;
+    }
+    #foot_last-main-P1 {
+        font-size:28px;
+    }
+    #br_id1{
+        display: none;
+    }
+    #foot_last-main-P2 {
+        font-size: 12px;
+    }
+    .cls_footLastSocial {
+        border: none;
+        font-size: 12px;
+        width: 85px;
+        align-items: center;
+    }
+    .cls_footLastSocial:first-child {
+        width: 68px;
+    }
+    #foot_last-main-P3 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width:426px) and (max-width:786px) {
+    footer{
+        padding-top: 30px;
+    }
+    #footer_first{
+        text-align: left!important;
+        padding: 0 16px;
+    }
+    #foot_ques>div:first-child{
+        font-size: 28px;
+        text-align: left!important;
+    }
+    #span_foot_sub{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    #foot_copysec>span {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    #foot_copysec {
+        justify-content:start;
+        width: auto;
+        margin: 30px auto;
+    }
+    #foot_copysec>span::nth-child(odd){
+        display:none;
+    }
+    #footer_last{
+        background-position: center center;
+        padding: 100px 16px 0 17px;
+        height: 40vh;
+    }
+    #foot_last-main-P1 {
+        font-size:28px;
+    }
+    #br_id1{
+        display: none;
+    }
+    #foot_last-main-P2 {
+        font-size: 12px;
+    }
+    .cls_footLastSocial {
+        border: none;
+        font-size: 12px;
+        width: 85px;
+        align-items: center;
+        margin-right: 16px;
+    }
+    .cls_footLastSocial:first-child {
+        width: 68px;
+    }
+    #foot_last-main-P3 {
+        display: flex;
+        justify-content: start;
+    }
+}​
+
